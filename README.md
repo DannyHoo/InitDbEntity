@@ -14,6 +14,7 @@ prefixName为javabean所在的包名(不包含javabean的父级目录)，就是�
 
 【注意事项】
 1、适用的excel模板在doc文件夹下，名为template.xlsx，需要严格按照模板中的格式
+目前支持的数据类型为：int、tinyint、varchar、text、timestamp、datetime、decimal、float
 2、excel文件暂时只适用excel2007格式(后缀为.xlsx)
 3、为了生存javabean后，更好的分类，模板中每个sheet的名字都是将来每个javabean的父级目录名，
 比如模板中名为school的sheet中的两个表(t_student_info、t_class_info)生成javabean后，
